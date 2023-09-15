@@ -1,0 +1,31 @@
+.item {
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: calc(20%);
+  height: 80px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.label {
+  font-size: 20px;
+}
+.percentage {
+  font-size: 34px;
+}
+.id-1 {
+  background-color: lightseagreen;
+}
+.id-2 {
+  background-color: aquamarine;
+}
+.id-3 {
+  background-color: navy;
+}
+.id-4 {
+  background-color: lightblue;
+}
+.id-5 {
+  background-color: turquoise;
+}
