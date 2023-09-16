@@ -59,6 +59,11 @@
   justify-content: center;
   align-items: center;
 }
+@media only screen and (min-width: 450px) {
+  .stats li {
+    padding: 18px;
+  }
+}
 .label {
   font-size: 20px;
   color: grey;
@@ -66,4 +71,9 @@
 .quantity {
   font-weight: bold;
   font-size: 25px;
+}
+@media only screen and (min-width: 450px) {
+  .quantity {
+    font-size: 30px;
+  }
 }
